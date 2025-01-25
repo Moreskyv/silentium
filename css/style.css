@@ -1,16 +1,12 @@
 @import "reset.css";
 @import "font.css";
 @import 'media.css';
-.main-block {
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    width: 700px;
-    height: 1500px;
-    font-size: 30px;
+@keyframes smooth-appear{
+    to {
+        opacity: 1;
+    }
+
 }
-
-
 html {
     scroll-behavior: smooth;
 }
@@ -33,6 +29,27 @@ body {
 .main-name {
     padding-top: 300px;
     font-family: Merriweather-bold;
+    transition: 1s;
+    opacity: 0;
+    animation: smooth-appear 1s ease forwards;
+}
+.descriptions {
+    opacity: 0;
+    animation: smooth-appear 1.5s ease forwards;
+}
+
+.bio {
+    opacity: 0;
+    animation: smooth-appear 2s ease forwards;
+}
+.link-list {
+    opacity: 0;
+    animation: smooth-appear 2.5s ease forwards;
+}
+
+.project {
+    opacity: 0;
+    animation: smooth-appear 3s ease forwards;
 }
 
 .descriptions-text {
