@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Silentium.</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script>
+        function displayCurrentTimeWithTimeZoneGMT9() {
+  // Get the current date and time
+  const currentTime = new Date();
+
+  // Set the time zone to GMT+9 (Tokyo, Japan)
+  const timeZone = 'Asia/Tokyo';
+
+  // Format the current time with the time zone
+  const formattedTime = currentTime.toLocaleTimeString('en-US', {
+    timeZone: timeZone,
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: true,
+  });
+
+  // Display the formatted time
+  document.getElementById('currentTime').textContent = `${formattedTime}`;
+}
+      
+        // Call the function every second to update the time
+        setInterval(displayCurrentTimeWithTimeZoneGMT9, 1000);
+      </script>
+</head>
+<body>
+    <div class="main-block">
+        <p class="main-name">Silentium. - shadow drifter</p>
+        <p class="Country"><img class="russia-flag" src="./image/russia-flag.svg">Russian Federation</p>
+        <p class="descriptions-text">Teenager who decideed to change his life. Fullstack developer </p>
+        <ul class="bio">
+                <li>Balance: <p class="bio-li">?????</p></li>
+                <li>Birthday: <p class="bio-li">20.07.2008</p></li>
+                <p>Time: <br><time class="bio-li" id="currentTime"></time></p>
+            </ul>
+        <p class="links">Links:</p>
+        <ul class="link-ul">
+            <li><a class="link-li" href="https://github.com/Moreskyv">*Github</a></li>
+            <li><a class="link-li" href="https://t.me/Moreskyv">*Telegram</a></li>
+            <li><a class="link-li" href="">asdfasdf</a></li>
+            <li><a class="link-li" href=""></a></li>
+        </ul>
+
+    
+    </div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+@import "reset.css";
+@import "font.css";
+
+body {
+    background-color: #000000;
+    align-items: center;
+    font-family: Work_Sans;
+    color: #CECECE;;
+    
+}
+
+.main-block {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    justify-content: center;
+    width: 500px;
+    height: 10000px;
+    font-size: 30px;
+
+}
+
+.main-name {
+    padding-top: 300px;
+    font-family: Merriweather-bold;
+    font-size: 80px;
+
+}
+
+.descriptions-text {
+    padding-top: 20px;
+    color: #6d6d6d;
+}
+
+.bio {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.russia-flag {
+    width: 30px;
+}
+
+
+
+.Country {
+    padding-top: 100px;
+}
+
+.links {
+    padding-top: 50px;
+    
+}
+
+.link-ul{
+    padding-top: 20px;
+}
+.link-li {
+    text-decoration: none;
+    color: #6d6d6d;
+}
+
+.griffith {
+    padding-top: 15px;
+    color: #353535;
+    font-size: 20px;
+}
+
+.bio-li {
+    color: #6d6d6d;
+}
