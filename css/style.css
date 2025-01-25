@@ -1,48 +1,6 @@
 @import "reset.css";
 @import "font.css";
 
-@media only screen and (min-width: 1200px) {
-    .main-block {
-        width: 800px;
-        height: 2000px;
-    }
-    .main-name {
-        font-size: 100px;
-    }
-}
-
-/* Laptop */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .main-block {
-        width: 700px;
-        height: 1800px;
-    }
-    .main-name {
-        font-size: 90px;
-    }
-}
-
-/* Tablet */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .main-block {
-        width: 600px;
-        height: 1500px;
-    }
-    .main-name {
-        font-size: 80px;
-    }
-}
-
-/* Mobile */
-@media only screen and (max-width: 767px) {
-    .main-block {
-        width: 100%;
-        height: 100vh;
-    }
-    .main-name {
-        font-size: 50px;
-    }
-}
 html {
     scroll-behavior: smooth;
 }
@@ -61,7 +19,7 @@ body {
     right: 0;
     margin: auto;
     justify-content: center;
-    width: 450px;
+    width: 30rem;
     height: 1500px;
     font-size: 30px;
 }
