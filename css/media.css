@@ -1,0 +1,47 @@
+/* Media Queries for Responsive Design */
+@media (min-width: 320px) { /* smartphones, iPhone, portrait 480x320 phones */
+    .main-block {
+        width: 100px;
+    }
+    .main-name {
+        font-size: 55px;
+    }
+}
+
+@media (min-width: 481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+    .main-block {
+        width: 200px;
+    }
+    .main-name {
+        font-size: 50px;
+    }
+}
+@media (min-width: 641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    .main-block {
+        width: 300px;
+    }
+}
+
+@media (min-width: 961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .main-block {
+        width: 400px;
+    }
+    .main-name {
+        font-size: 70px;
+    }
+}
+
+@media (min-width: 1025px) { /* big landscape tablets, laptops, and desktops */
+    .main-block {
+        width: 500px;
+    }
+}
+
+@media (min-width: 1281px) { /* hi-res laptops and desktops */
+    .main-block {
+        width: 600px;
+    }
+    .main-name {
+        font-size: 90px;
+    }
+}

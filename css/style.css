@@ -1,5 +1,15 @@
 @import "reset.css";
 @import "font.css";
+@import 'media.css';
+.main-block {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+    height: 1500px;
+    font-size: 30px;
+}
+
 
 html {
     scroll-behavior: smooth;
@@ -9,17 +19,13 @@ body {
     align-items: center;
     font-family: Work_Sans;
     color: #CECECE;
-    padding: 10px;
 }
 
 .main-block {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    justify-content: center;
-    width: 30rem;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
     height: 1500px;
     font-size: 30px;
 }
@@ -27,7 +33,6 @@ body {
 .main-name {
     padding-top: 300px;
     font-family: Merriweather-bold;
-    font-size: 80px;
 }
 
 .descriptions-text {
