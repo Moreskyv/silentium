@@ -1,12 +1,14 @@
 @import "reset.css";
 @import "font.css";
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: #000000;
     align-items: center;
     font-family: Work_Sans;
-    color: #CECECE;;
-    
+    color: #CECECE;
+    padding: 10px;
 }
 
 .main-block {
@@ -16,17 +18,15 @@ body {
     right: 0;
     margin: auto;
     justify-content: center;
-    width: 400px;
-    height: 10000px;
+    width: 450px;
+    height: 1500px;
     font-size: 30px;
-
 }
 
 .main-name {
     padding-top: 300px;
     font-family: Merriweather-bold;
     font-size: 80px;
-
 }
 
 .descriptions-text {
@@ -62,6 +62,11 @@ body {
 .link-li {
     text-decoration: none;
     color: #6d6d6d;
+    transition: 0.5s;
+
+}
+.link-li:hover {
+    color: #CECECE;
 }
 
 .griffith {
